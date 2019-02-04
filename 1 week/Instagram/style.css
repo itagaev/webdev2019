@@ -1,0 +1,92 @@
+  body{
+        background-color: #FAFAFA;
+    }
+    .table{ 
+        margin-top:80px;
+        margin-left: 700px;
+        margin-right:200px;
+        background-color:#FAFAFA;
+        text-align: center;
+    }
+    .headpic{
+        width:650px;
+    }
+    .logo{
+        width:400px;
+    }
+    .rightside{
+        margin-left: -600px;    }
+    .leftside{
+        margin-right: 850px;
+        width: 500px;
+    }
+    leftside#iphonespic{
+        width:800;
+    }
+    .OR{
+        text-align: center;
+        color:grey;
+    }
+    .text{
+        font-family:'Times New Roman', Times, serif;
+        font-size: 25px;
+        line-height: 5px;
+
+        color:grey;
+    }
+    #downloads{
+        width:200px;
+        height:65px;
+    }
+    #facebook{
+        width:350px;
+        height: 50px;
+    }
+    .partone{
+        background-color:white;
+        width:570px;
+        height:850px;
+        font-size: 20px;
+        border: 3px solid whitesmoke;
+    }
+    .parttwo{
+        background-color:white;
+        color:black;
+        font-size: 25px;
+        padding-top:50px;
+        width:570px;
+        height:100px;
+        border: 3px solid whitesmoke;
+    }
+    .myinput{
+        width:460px;
+        height: 50px;
+        font-size: 20px;
+        color:grey;
+        background-color: ghostwhite;
+        border-radius: 5px;
+        border:2px solid whitesmoke;
+    }
+    .fbbutton{
+        width:460px;
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        background-color: #3897F0;
+        color: #FBFDFF;
+        border-radius: 8px;
+        background-image: url("C:\Users\Zhanar\Downloads\Telegram Desktop\fb.PNG");
+        background-repeat: no-repeat;
+        background-position: 48px;
+        border:1px solid white;
+    }
+    .signbutton{
+        width:460px;
+        height: 60px;
+        font-size: 20px;
+        border-radius: 8px;
+        background-color: #3897F0;
+        color: #FBFDFF;
+        font-weight: bold;
+        border:1px solid white;
+    }
