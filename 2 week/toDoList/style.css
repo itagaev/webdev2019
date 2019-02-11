@@ -1,0 +1,28 @@
+.header{
+  height: 30px;
+  background-color: black;
+}
+
+p{
+  font-size: 16px;
+  color: white;
+  text-align: center;
+}
+
+.main{
+  position: absolute;
+  left: 600px;
+}
+
+input{
+  width: 50%;
+}
+
+
+
+ol li {
+  background: #ffe5e5;
+  padding: 5px;
+  margin-left: 35px;
+  list-style-type: square;
+}
