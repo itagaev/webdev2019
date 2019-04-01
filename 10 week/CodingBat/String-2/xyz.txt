@@ -1,0 +1,7 @@
+def xyz_there(str):
+    for i in range(len(str)-2):
+        sub = str[i:i+3]
+        before_sub = str[i-1]
+        if sub == 'xyz' and before_sub != '.':
+            return True
+    return False

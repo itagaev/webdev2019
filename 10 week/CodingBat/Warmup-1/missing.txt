@@ -1,0 +1,9 @@
+def missing_char(str, n):
+  newStr = ""
+  for index, item in enumerate(str):
+    if index == n:
+      continue
+    else:
+      newStr += item
+
+  return newStr      

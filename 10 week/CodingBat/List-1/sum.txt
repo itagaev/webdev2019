@@ -1,0 +1,6 @@
+def sum3(nums):
+  count = 0
+  for x in nums:
+    count += x
+    
+  return count  

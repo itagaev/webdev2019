@@ -1,0 +1,9 @@
+def array_front9(nums):
+  for index, item in enumerate(nums):
+    if(item == 9):
+      return True
+    if(index == 5):
+      break
+    
+  
+  return False    
