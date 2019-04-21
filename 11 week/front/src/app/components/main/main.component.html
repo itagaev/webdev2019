@@ -1,0 +1,14 @@
+<h3>Task Lists: </h3>
+<div>
+  <div *ngFor="let c of taskLists" (click)="getTasks(c)">
+      {{c.id}}-{{c.name}}
+  </div>
+</div>
+
+<div>
+  <div *ngFor="let t of tasks">
+      {{t.id}}-{{t.name}} <br />
+      From {{t.created_at}} to {{t.due_on}} <br />
+      Status: {{t.status}}
+  </div>
+</div>
