@@ -196,4 +196,8 @@ include/
 lib/                
 .idea/
 pip-selfcheck.json
+<<<<<<< HEAD
 package-lock.json
+=======
+package-lock.json
+>>>>>>> 826dbbcd9c9b9c392e5cdf96b296e961acecbe9c
