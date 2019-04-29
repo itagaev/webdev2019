@@ -1,7 +1,12 @@
+<h3>Create TaskList: </h3>
+<input type="text" [(ngModel)]="name" />
+<button (click)="createTaskList()">Create</button> 
+
+
 <h3>Task Lists: </h3>
 <div>
   <div *ngFor="let c of taskLists" (click)="getTasks(c)">
-      {{c.id}}-{{c.name}}
+      {{c.id}}-{{c.name}}  <span (click)="deleteTaskList(c)">Delete</span> 
   </div>
 </div>
 

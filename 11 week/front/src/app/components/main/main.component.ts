@@ -7,7 +7,7 @@ import { ProviderService } from 'src/app/services/provider.service';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-
+  public name: string = '';
   public taskLists: TaskList[];
   public tasks: Task[];
 
@@ -25,5 +25,26 @@ export class MainComponent implements OnInit {
     return this.provider.getTasks(t).then( res => {
         this.tasks = res;
     });
+  }
+
+  createTaskList(){
+    if(this.name !== ''){
+      this.provider.createTaskList(this.name).then(res => {
+        this.name = '';
+        this.taskLists.push(res);
+      });
+    }
+  }
+  deleteTaskList(tl: TaskList){
+    this.provider.deleteTaskList(tl.id).then(res => {
+        this.provider.getTaskLists().then(r => {
+          this.taskLists = r;
+        });
+    });
+  }
+  updateTaskList(tl: TaskList){
+     this.provider.updateTaskList(tl).then(res => {
+         console.log(tl.name + 'updated!');
+     });
   }
 }

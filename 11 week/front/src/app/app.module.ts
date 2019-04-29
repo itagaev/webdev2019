@@ -8,6 +8,7 @@ import { ProviderComponent } from './components/provider/provider.component';
 import { ProviderService } from './services/provider.service';
 import { MainService } from './services/main.service';
 import { HttpClientModule } from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [
   ProviderService, 
