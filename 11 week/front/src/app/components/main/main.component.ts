@@ -10,21 +10,28 @@ export class MainComponent implements OnInit {
   public name: string = '';
   public taskLists: TaskList[];
   public tasks: Task[];
+  public posts: Post[];
+  public infoPost: Post;
+  public likedPost: Post;
 
   constructor(private provider: ProviderService) { }
 
   ngOnInit() {
-    this.provider.getTaskLists().then( res => {
-      
-        this.taskLists = res;
-        console.log(this.taskLists);
-    });
+      this.provider.getPosts().then(res => {
+         this.posts = res;
+      });
   }
   
   getTasks(t: TaskList){
     return this.provider.getTasks(t).then( res => {
         this.tasks = res;
     });
+  }
+
+  getInfoPosts(c: Post){
+    return this.provider.getInfoPosts(c).then(res => {
+       this.infoPost = res;
+    })
   }
 
   createTaskList(){
@@ -45,6 +52,21 @@ export class MainComponent implements OnInit {
   updateTaskList(tl: TaskList){
      this.provider.updateTaskList(tl).then(res => {
          console.log(tl.name + 'updated!');
+     });
+  }
+  deletePost(c: Post){
+    this.provider.deletePost(c).then(res => {
+      this.provider.getPosts().then(r => {
+        this.posts = r;
+      });
+    });
+  }
+
+  likePost(c: Post){
+     this.provider.likePost(c).then(res => {
+       this.provider.getPosts().then(r => {
+         this.posts = r;
+       });
      });
   }
 }

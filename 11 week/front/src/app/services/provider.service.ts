@@ -30,8 +30,32 @@ export class ProviderService extends MainService{
         name: tl.name
      });
    }
-
+   
    deleteTaskList(id: number): Promise<any>{
      return this.delet("http://localhost:8000/api/task_lists/" + id, {})
    }
+
+   getPosts(): Promise<Post[]>{
+     return this.get("http://localhost:8000/posts/", {})
+   }
+
+   getInfoPosts(c: Post): Promise<Post>{
+       return this.get("http://localhost:8000/posts/" + c.id + "/", {})
+   }
+
+   deletePost(c: Post): Promise<any>{
+    return this.delet("http://localhost:8000/posts/" + c.id + "/", {})
+   }
+
+   likePost(c: Post): Promise<Post>{
+     return this.put("http://localhost:8000/posts/" + c.id + "/like", {
+       'title': c.title,
+       'body': c.body,
+       'like_count': c.like_count + 1,
+       'created_at': c.created_at,
+       'created_by': c.created_by
+     })
+   }
+
+
 }

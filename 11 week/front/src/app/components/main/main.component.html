@@ -1,19 +1,17 @@
-<h3>Create TaskList: </h3>
-<input type="text" [(ngModel)]="name" />
-<button (click)="createTaskList()">Create</button> 
 
-
-<h3>Task Lists: </h3>
+<h3>Posts: </h3>
 <div>
-  <div *ngFor="let c of taskLists" (click)="getTasks(c)">
-      {{c.id}}-{{c.name}}  <span (click)="deleteTaskList(c)">Delete</span> 
+  <div *ngFor="let c of posts" (click)="getInfoPost(c)">
+      {{posts.id}}-{{posts.title}} 
+      <button>Update</button>
+      <button (click)="deletePost(c)">Delete</button>
+      <button (click="likePost(c)")>Like</button>
   </div>
 </div>
-
+<h3>Info about post</h3>
 <div>
-  <div *ngFor="let t of tasks">
-      {{t.id}}-{{t.name}} <br />
-      From {{t.created_at}} to {{t.due_on}} <br />
-      Status: {{t.status}}
-  </div>
-</div>
+  {{infoPost.body}} <br/>
+  {{infoPost.like_count}} <br/>
+   {{infoPost.created_at}} <br>
+   {{infoPost.created_by}} <br/>
+ </div>
