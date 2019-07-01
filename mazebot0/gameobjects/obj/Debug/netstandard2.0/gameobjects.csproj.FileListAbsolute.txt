@@ -16,3 +16,12 @@ D:\pp2-2019-master\Projects\Lecture8\mazebot0\gameobjects\obj\Debug\netstandard2
 D:\pp2-2019-master\Projects\Lecture8\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.AssemblyInfo.cs
 D:\pp2-2019-master\Projects\Lecture8\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.dll
 D:\pp2-2019-master\Projects\Lecture8\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.pdb
+D:\Webka\mazebot0\gameobjects\bin\Debug\netstandard2.0\gameobjects.deps.json
+D:\Webka\mazebot0\gameobjects\bin\Debug\netstandard2.0\gameobjects.dll
+D:\Webka\mazebot0\gameobjects\bin\Debug\netstandard2.0\gameobjects.pdb
+D:\Webka\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.csprojAssemblyReference.cache
+D:\Webka\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.csproj.CoreCompileInputs.cache
+D:\Webka\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.AssemblyInfoInputs.cache
+D:\Webka\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.AssemblyInfo.cs
+D:\Webka\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.dll
+D:\Webka\mazebot0\gameobjects\obj\Debug\netstandard2.0\gameobjects.pdb

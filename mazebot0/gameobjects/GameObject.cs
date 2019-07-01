@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 namespace pp2.lecture8.mazegame.gameobjects
 {
-    public abstract class GameObject
+    public abstract class GameObject // Абстрактный класс, от которого все другие классы будут наследоваться
     {
         protected char label;
         protected List<Point> locations;

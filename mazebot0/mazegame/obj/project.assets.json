@@ -708,11 +708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\pp2-2019-master\\Projects\\Lecture8\\mazebot0\\mazegame\\mazegame.csproj",
+      "projectUniqueName": "D:\\Webka\\mazebot0\\mazegame\\mazegame.csproj",
       "projectName": "mazegame",
-      "projectPath": "D:\\pp2-2019-master\\Projects\\Lecture8\\mazebot0\\mazegame\\mazegame.csproj",
+      "projectPath": "D:\\Webka\\mazebot0\\mazegame\\mazegame.csproj",
       "packagesPath": "C:\\Users\\Илияс\\.nuget\\packages\\",
-      "outputPath": "D:\\pp2-2019-master\\Projects\\Lecture8\\mazebot0\\mazegame\\obj\\",
+      "outputPath": "D:\\Webka\\mazebot0\\mazegame\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -731,8 +731,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "D:\\pp2-2019-master\\Projects\\Lecture8\\mazebot0\\gameobjects\\gameobjects.csproj": {
-              "projectPath": "D:\\pp2-2019-master\\Projects\\Lecture8\\mazebot0\\gameobjects\\gameobjects.csproj"
+            "D:\\Webka\\mazebot0\\gameobjects\\gameobjects.csproj": {
+              "projectPath": "D:\\Webka\\mazebot0\\gameobjects\\gameobjects.csproj"
             }
           }
         }

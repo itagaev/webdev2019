@@ -185,11 +185,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\pp2-2019-master\\Projects\\Lecture8\\mazebot0\\gameobjects\\gameobjects.csproj",
+      "projectUniqueName": "D:\\Webka\\mazebot0\\gameobjects\\gameobjects.csproj",
       "projectName": "gameobjects",
-      "projectPath": "D:\\pp2-2019-master\\Projects\\Lecture8\\mazebot0\\gameobjects\\gameobjects.csproj",
+      "projectPath": "D:\\Webka\\mazebot0\\gameobjects\\gameobjects.csproj",
       "packagesPath": "C:\\Users\\Илияс\\.nuget\\packages\\",
-      "outputPath": "D:\\pp2-2019-master\\Projects\\Lecture8\\mazebot0\\gameobjects\\obj\\",
+      "outputPath": "D:\\Webka\\mazebot0\\gameobjects\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

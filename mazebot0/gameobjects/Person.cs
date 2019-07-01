@@ -8,12 +8,12 @@
         //Move Up (0, -1)
         //Move Down (0, 1)
 
-        private int directionX = -1;
+        private int directionX = 0;
         private int directionY = 0;
 
         public Person(char label) : base(label) { }
 
-        public void move(int dirX, int dirY)
+        public void move(int dirX, int dirY) // в зависимости от нажатой клавиши поменять его направление
         {
             directionX = dirX;
             directionY = dirY;
@@ -36,7 +36,7 @@
             base.Draw();
         }
 
-        public bool IsWallCollision(Wall wall)
+        public bool IsWallCollision(Wall wall) // проверяет на столкновение со стеной
         {
             Point head = locations[0];
             return wall.Overlaps(head.X, head.Y);

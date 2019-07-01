@@ -41,6 +41,7 @@ namespace pp2.lecture8.mazegame
             GameState state = GameState.START;
             GameSession session = new GameSession();
             GameAction action = GameAction.UNKNOWN;
+
             state = session.play(action);
             int currentLevel = 1;
             int maxLevel = 3;
@@ -48,11 +49,11 @@ namespace pp2.lecture8.mazegame
             //game loop
             while (state != GameState.LOST)
             {
-                Person person = session.getPerson();
+                Person person = session.getPerson(); // берем все обьекты с карты
                 Wall currentWall = session.getWall();
                 Exit currentExit = session.getExit();
                 
-                action = KeyToGameAction(Console.ReadKey());
+                action = KeyToGameAction(Console.ReadKey()); // получаем данные от нажатой клавиши
 
                 if (action == GameAction.MOVE_UP)
                     person.move(0, -1);
@@ -61,11 +62,11 @@ namespace pp2.lecture8.mazegame
                 if (action == GameAction.MOVE_LEFT)
                     person.move(-1, 0);
                 if (action == GameAction.MOVE_RIGHT)
-                    person.move(1, 0);
+                    person.move(1, 0);  // смотря на какую клавишу нажал пользватель мы меняем точку Person
 
                 state = session.play(action);
 
-                if (person.IsWallCollision(currentWall))
+                if (person.IsWallCollision(currentWall)) // мы проверям на столкновение со стеной
                 {
                     Console.Clear();
                     Console.SetCursorPosition(50, 10);
@@ -75,7 +76,7 @@ namespace pp2.lecture8.mazegame
                     currentLevel = 1;
                     session = new GameSession();
                     session.LoadMap(currentLevel);
-                    state = session.play(action);
+                    state = session.play(action); // перезагрузка игры
                 }
                 if (person.getHead().X == currentExit.getPosition().X && person.getHead().Y == currentExit.getPosition().Y)
                 {
