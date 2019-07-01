@@ -1,0 +1,15 @@
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\bin\Debug\netcoreapp2.2\Levels\Level1.txt
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\bin\Debug\netcoreapp2.2\mazegame.deps.json
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\bin\Debug\netcoreapp2.2\mazegame.runtimeconfig.json
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\bin\Debug\netcoreapp2.2\mazegame.runtimeconfig.dev.json
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\bin\Debug\netcoreapp2.2\mazegame.dll
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\bin\Debug\netcoreapp2.2\mazegame.pdb
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\bin\Debug\netcoreapp2.2\gameobjects.dll
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\bin\Debug\netcoreapp2.2\gameobjects.pdb
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\obj\Debug\netcoreapp2.2\mazegame.csprojAssemblyReference.cache
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\obj\Debug\netcoreapp2.2\mazegame.csproj.CoreCompileInputs.cache
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\obj\Debug\netcoreapp2.2\mazegame.AssemblyInfoInputs.cache
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\obj\Debug\netcoreapp2.2\mazegame.AssemblyInfo.cs
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\obj\Debug\netcoreapp2.2\mazegame.csproj.CopyComplete
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\obj\Debug\netcoreapp2.2\mazegame.dll
+D:\pp2-2019-master\Projects\Lecture8\mazebot0\mazegame\obj\Debug\netcoreapp2.2\mazegame.pdb
